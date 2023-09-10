@@ -58,7 +58,7 @@ const Player = () => {
     ];
     const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
         const value = event.target.value
-        if (!isNaN(+value) && +value - 1 < 4)
+        if (!isNaN(+value) && +value - 1 < 4 && +value - 1 > 0)
             setActiveEp(+value - 1)
         else
             setActiveEp(0)
@@ -102,7 +102,7 @@ const Player = () => {
                                            label={'Number of Ep'}
                                            focused
                                            onChange={handleChange}
-                                           sx={{color: 'white'}}
+                                           sx={{input: {color:'white'}}}
                                 ></TextField>
                             </Box>
                             <Box sx={{display: 'flex', flexFlow: 'column'}}>
@@ -241,6 +241,7 @@ const Player = () => {
                                         cursor: 'pointer'
                                     }} onClick={() => {
                                         setSeason(0)
+                                        setActiveEp(0)
                                     }}>
                                         <Box sx={{position: 'relative'}}>
                                             <CardMedia
@@ -276,6 +277,7 @@ const Player = () => {
                                         cursor: 'pointer'
                                     }} onClick={() => {
                                         setSeason(1)
+                                        setActiveEp(0)
                                     }}>
                                         <Box sx={{position: 'relative'}}>
                                             <CardMedia
@@ -311,6 +313,7 @@ const Player = () => {
                                         cursor: 'pointer'
                                     }} onClick={() => {
                                         setSeason(2)
+                                        setActiveEp(0)
                                     }}>
                                         <Box sx={{position: 'relative'}}>
                                             <CardMedia
