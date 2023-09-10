@@ -458,6 +458,7 @@ const Player = () => {
                                 multiline
                                 rows={3}
                                 variant="filled"
+                                sx={{textarea:{color:'white'}}}
                             />
                             <Box sx={{display: 'flex', gap: '1rem'}}>
                                 <Avatar alt="Remy Sharp" src="/cover.png"/>
