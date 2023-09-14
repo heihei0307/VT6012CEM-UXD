@@ -370,7 +370,7 @@ const Home = () => {
                         more<ArrowForwardIos/></Typography>
                 </Box>
                 <Box sx={{display: 'flex', flexFlow: 'column', gap: '.5rem', flexBasis: '25%'}}>
-                    <Typography variant="h6" component="h6" sx={{color: '#FFDD95'}}>Top Airing</Typography>
+                    <Typography variant="h6" component="h6" sx={{color: '#FFDD95'}}>Most Popular</Typography>
                     <ListItem enableAdd={false}/>
                     <ListItem enableAdd={false}/>
                     <ListItem enableAdd={false}/>
@@ -380,7 +380,7 @@ const Home = () => {
                         more<ArrowForwardIos/></Typography>
                 </Box>
                 <Box sx={{display: 'flex', flexFlow: 'column', gap: '.5rem', flexBasis: '25%'}}>
-                    <Typography variant="h6" component="h6" sx={{color: '#FFDD95'}}>Top Airing</Typography>
+                    <Typography variant="h6" component="h6" sx={{color: '#FFDD95'}}>Most Favorite</Typography>
                     <ListItem enableAdd={false}/>
                     <ListItem enableAdd={false}/>
                     <ListItem enableAdd={false}/>
@@ -390,7 +390,7 @@ const Home = () => {
                         more<ArrowForwardIos/></Typography>
                 </Box>
                 <Box sx={{display: 'flex', flexFlow: 'column', gap: '.5rem', flexBasis: '25%'}}>
-                    <Typography variant="h6" component="h6" sx={{color: '#FFDD95'}}>Top Airing</Typography>
+                    <Typography variant="h6" component="h6" sx={{color: '#FFDD95'}}>Latest Completed</Typography>
                     <ListItem enableAdd={false}/>
                     <ListItem enableAdd={false}/>
                     <ListItem enableAdd={false}/>
@@ -404,13 +404,13 @@ const Home = () => {
                 <Box sx={{display: 'flex', flexFlow: 'column', gap: '.75rem', flexGrow: 1}}>
                     <Box sx={{display: 'flex', flexFlow: 'column', gap: '.5rem'}}>
                         <Typography variant="h6" component="h6" sx={{color: '#FFDD95'}}>
-                            Trending
+                            Latest Episode
                         </Typography>
                         <ListingContainer qty={[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]}/>
                     </Box>
                     <Box sx={{display: 'flex', flexFlow: 'column', gap: '.5rem'}}>
                         <Typography variant="h6" component="h6" sx={{color: '#FFDD95'}}>
-                            Trending
+                            New On Myself
                         </Typography>
                         <ListingContainer qty={[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]}/>
                     </Box>
